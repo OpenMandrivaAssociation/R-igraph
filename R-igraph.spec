@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.5.5_4
-Release:          1
+Release:          2
 Summary:          Network analysis and visualization
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
