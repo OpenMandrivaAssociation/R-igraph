@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.5.5_4
-Release:          2
+Version:          0.6.5.2
+Release:          1
 Summary:          Network analysis and visualization
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.5.5-4.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/igraph_0.6.5-2.tar.gz
 Requires:         R-stats 
 Requires:         R-stats4 R-rgl R-tcltk R-RSQLite R-digest R-graph R-Matrix 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats
@@ -51,3 +51,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/tkigraph_help
+
