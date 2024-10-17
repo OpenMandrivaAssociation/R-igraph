@@ -7,7 +7,7 @@ Release:          2
 Summary:          Network analysis and visualization
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.5.5-4.tar.gz
 Requires:         R-stats 
 Requires:         R-stats4 R-rgl R-tcltk R-RSQLite R-digest R-graph R-Matrix 
